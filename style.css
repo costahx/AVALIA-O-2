@@ -21,3 +21,15 @@ h1{
 .logoimg{
     width: 150px;
     height: 150px;
+}
+.logocabecalho{
+    width: 100px;
+}
+.lista_cabecalho{
+display: flex;
+margin-left: 250px;
+}
+.item .lista_cabecalho{
+    color: beige;
+    list-style: none;
+}
