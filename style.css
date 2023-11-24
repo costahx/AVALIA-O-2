@@ -1,35 +1,54 @@
 body{ 
-    background-color: rgb(230, 234, 241);
+    background-color: black; 
+} 
+h1{ 
+    font-size: 60px; 
+    color: rgb(255, 255, 255); 
+    text-align: center;
 
 }
-h1{
-    font-size: 80px;
-    color: black;
+p {
+    font-size: 30px; 
+    color: rgb(255, 255, 255); 
     text-align: center;
-} p{ 
-    font-size: 25px;
-    text-align: center;
-}img{
-    width: 400px;
-    height: 400px;
-    margin-left: 150px;
 }
-.cabecalho{
-     background-color: rgb(210, 221, 240);
-     display: flex;
-}
-.logoimg{
-    width: 150px;
-    height: 150px;
-}
-.logocabecalho{
-    width: 100px;
-}
-.lista_cabecalho{
-display: flex;
-margin-left: 250px;
-}
-.item .lista_cabecalho{
-    color: beige;
-    list-style: none;
-}
+ img{ 
+    width: 460px;
+     height: 230px; 
+     margin-left: 150px; 
+    }
+    
+    header{
+        color: rgb(241, 226, 226);
+    }
+    .cabecalho{
+        background-color: rgb(75, 36, 126);
+        display: flex;
+    }
+    .logoimg{
+        width: 120px;
+        height: 75px;
+        margin-left: 400px;
+        
+    }
+    .listacabecalho{
+        display: flex;
+        margin-left: 100px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .musicas{
+        width: 320px;
+     height: 320px; 
+     margin-left: 250px; 
+    }
+    .filme{
+        width: 300px;
+        height: 460px; 
+        margin-left: 480; 
+    }
+    .jogo{
+        width: 300px;
+        height: 460px; 
+        margin-left: 480; 
+    }
